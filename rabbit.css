@@ -21,6 +21,7 @@ body {
     animation-name: jump;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
 }
 
 #body1 {
@@ -258,6 +259,9 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, 35px);
+    animation-name: shadow;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
     filter: blur(8px);
     z-index: -1;
 }
@@ -306,4 +310,12 @@ body {
     88% {transform: scale(0.5) translateY(-9.7%);}
     90% {transform: scale(0.5, 0.4) translateY(10%);}
     100% {transform: scale(0.5, 0.4) translateY(10%);}
+}
+
+@keyframes shadow {
+    0% {width: 115px;}
+    10% {width: 115px;}
+    50% {width: 95px;}
+    77% {width: 95px;}
+    100% {width: 115px;}
 }
