@@ -1,6 +1,7 @@
-function shadow(element, targetWidth, duration) {
+function shadow(element, duration) {
     var oldTime = performance.now();
     var originWidth = element.offsetWidth;
+    var targetWidth = 95;
     var variation = targetWidth - originWidth;
     var waitingTime = duration / 10;
     var runningTime = duration / 5 * 4;
@@ -32,4 +33,4 @@ function shadow(element, targetWidth, duration) {
     window.requestAnimationFrame(step);
 }
 
-shadow(document.getElementById('shadow'), 95, 1500);
+shadow(document.getElementById('shadow'), 1500);
