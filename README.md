@@ -4,7 +4,7 @@
 
 ![tippy](/tippy.PNG)
 
-[코드 실행](http://tippy.kafuuchino.moe)
+[코드 실행](https://codepen.io/SeokJunYeom-the-bold/pen/gOZPPZZ)
 
 ## 추가 내용
 
